@@ -1,0 +1,39 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  margin-block: 20px;
+  margin-inline: auto;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.name-tag {
+  color: mediumspringgreen;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 15px;
+}
+
+.socials a {
+  color: rgba(255, 255, 255, 0.53);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+.socials a:hover {
+  color: mediumspringgreen;
+  text-decoration: underline;
+}
