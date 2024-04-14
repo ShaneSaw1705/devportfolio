@@ -21,7 +21,6 @@ export const NavBar = () => {
           </li>
         </ul>
       </div>
-      <div className="divider"></div>
     </>
   );
 };
