@@ -1,4 +1,5 @@
 import "../css/HeaderHero.css";
+import { IoMail } from "react-icons/io5";
 
 export const HeroHeader = () => {
   return (
