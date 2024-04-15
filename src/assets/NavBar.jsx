@@ -14,7 +14,7 @@ export const NavBar = () => {
             <a href="#">Instagram</a>
           </li>
           <li>
-            <a href="#">Github</a>
+            <a href="https://github.com/ShaneSaw1705">Github</a>
           </li>
           <li>
             <a href="#">LinkedIn</a>

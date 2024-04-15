@@ -1,63 +1,14 @@
 .header-container {
   width: 100vw;
   height: 100vh;
-  background-color: #1a1e23;
-  opacity: 1;
-  background-image: linear-gradient(
-      30deg,
-      #292f36 12%,
-      transparent 12.5%,
-      transparent 87%,
-      #292f36 87.5%,
-      #292f36
-    ),
-    linear-gradient(
-      150deg,
-      #292f36 12%,
-      transparent 12.5%,
-      transparent 87%,
-      #292f36 87.5%,
-      #292f36
-    ),
-    linear-gradient(
-      30deg,
-      #292f36 12%,
-      transparent 12.5%,
-      transparent 87%,
-      #292f36 87.5%,
-      #292f36
-    ),
-    linear-gradient(
-      150deg,
-      #292f36 12%,
-      transparent 12.5%,
-      transparent 87%,
-      #292f36 87.5%,
-      #292f36
-    ),
-    linear-gradient(
-      60deg,
-      #292f3677 25%,
-      transparent 25.5%,
-      transparent 75%,
-      #292f3677 75%,
-      #292f3677
-    ),
-    linear-gradient(
-      60deg,
-      #292f3677 25%,
-      transparent 25.5%,
-      transparent 75%,
-      #292f3677 75%,
-      #292f3677
-    );
-  background-size: 80px 140px;
-  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+  background-color: var(--bgcolor2);
 }
 
 .intro {
   display: flex;
   flex-direction: column;
+  justify-content: start;
+  align-items: start;
   gap: 2px;
   margin-block: 20px;
   width: 100%;
@@ -78,7 +29,7 @@
   display: grid;
   gap: 5px;
   list-style: none;
-  background-color: var(--bgcolor2);
+  background-color: var(--bgcolor);
   padding-block: 20px;
   border-radius: 40px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -92,7 +43,6 @@
 
 .lets-talk {
   cursor: pointer;
-  width: 20%;
   transition: color 100ms;
 }
 
