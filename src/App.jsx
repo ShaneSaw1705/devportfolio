@@ -2,6 +2,7 @@ import { NavBar } from "./assets/NavBar";
 import { HeroHeader } from "./assets/HeaderHero";
 import { AboutMe } from "./assets/AboutMe";
 import { Skills } from "./assets/Skills";
+import { ContactMe } from "./assets/ContactMe";
 
 export const App = () => {
   return (
@@ -10,6 +11,7 @@ export const App = () => {
       <HeroHeader />
       <AboutMe />
       <Skills />
+      <ContactMe />
     </>
   );
 };

@@ -46,8 +46,8 @@ h1 {
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 20px;
-  width: 100%;
+  justify-content: center;
+  gap: 10px;
+  width: 90%;
   align-items: center;
 }
