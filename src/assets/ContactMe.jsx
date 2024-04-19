@@ -1,6 +1,5 @@
 import "../css/ContactMe.css";
 import { Divider } from "@mui/joy";
-import Textarea from "@mui/joy";
 
 export const ContactMe = () => {
   return (
@@ -12,7 +11,14 @@ export const ContactMe = () => {
             <Divider />
             <h4>I am currently taking freelance work</h4>
           </div>
-          <div className="form-details"></div>
+          <div className="form-details">
+            <div className="form-top">
+              <input type="text" placeholder="Your name" />
+              <input type="text" placeholder="Your email" />
+            </div>
+            <input type="text" placeholder="You message" />
+          </div>
+          <button>send</button>
         </div>
       </div>
     </div>
