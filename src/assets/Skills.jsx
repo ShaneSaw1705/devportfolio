@@ -3,6 +3,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
+import { Divider } from "@mui/joy";
 
 export const Skills = () => {
   return (
@@ -12,7 +13,7 @@ export const Skills = () => {
           <div className="skill-title">
             <h1>Skills</h1>
             <h3>I strive to never stop learning and improving.</h3>
-            <div className="divider"></div>
+            <Divider />
           </div>
           <div className="platforms"></div>
           <div className="languages">
